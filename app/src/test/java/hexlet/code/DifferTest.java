@@ -16,9 +16,9 @@ public final class DifferTest {
 
     @BeforeAll
     public static void beforeAll() throws Exception {
-        jsonOutput = readFixture("fixtures/json_output.json");
-        plainOutput = readFixture("fixtures/plain_output.txt");
-        stylishOutput = readFixture("fixtures/stylish_output.txt");
+        jsonOutput = readFixture("json_output.json");
+        plainOutput = readFixture("plain_output.txt");
+        stylishOutput = readFixture("stylish_output.txt");
     }
 
     private static String getFixtureAbsolutePath(String fileName) {

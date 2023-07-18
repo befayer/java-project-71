@@ -37,5 +37,4 @@ public final class Stylish implements FormatterInterface {
             default -> throw new RuntimeException("Unknown node type: '" + type + "'");
         };
     }
-
 }

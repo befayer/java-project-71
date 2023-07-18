@@ -1,5 +1,4 @@
 plugins {
-    id 'java'
     id 'application'
     id 'checkstyle'
     id 'jacoco'
@@ -10,6 +9,10 @@ version = '1.0-SNAPSHOT'
 
 repositories {
     mavenCentral()
+}
+
+application {
+    mainClass = 'hexlet.code.App'
 }
 
 dependencies {
@@ -24,10 +27,6 @@ dependencies {
 test {
     useJUnitPlatform()
     finalizedBy jacocoTestReport
-}
-
-application {
-    mainClass = 'hexlet.code.App'
 }
 
 compileJava {
