@@ -5,7 +5,7 @@
 [![Test Coverage](https://api.codeclimate.com/v1/badges/6da82edbe06f33f32ce7/test_coverage)](https://codeclimate.com/github/befayer/java-project-71/test_coverage)
 
 # Diff Finder
-The source code for a CLI tool that finds the difference between two data structures files.
+The source code for a CLI tool that finds the difference between two data structures files
 
 ## Help
 ![help.png](images/help.png)
