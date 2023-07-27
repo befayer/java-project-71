@@ -19,11 +19,3 @@ jobs:
         with:
           arguments: build
           build-root-directory: app
-      - name: Publish code coverage
-        uses: codecov/codecov-action@v3
-        env:
-          CC_TEST_REPORTER_ID: ${{secrets.TEST_REPORTER_ID}}
-          JACOCO_SOURCE_PATH: app/src/main/java
-        with:
-          coverageCommand: make report
-          coverageLocations: ${{github.workspace}}/app/build/reports/jacoco/test/jacocoTestReport.xml:jacoco
